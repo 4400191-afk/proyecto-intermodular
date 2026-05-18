@@ -1,5 +1,5 @@
 async function cargarDatos() {
-    let peticion = await fetch("../../puntuaciones.txt", { cache: "no-store" });
+    let peticion = await fetch("../puntuaciones.txt", { cache: "no-store" });
 
     let texto = await peticion.text();
 
